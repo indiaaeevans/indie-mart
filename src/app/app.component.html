@@ -2,15 +2,18 @@
   <button mat-icon-button color="accent">
     <mat-icon>menu</mat-icon>
   </button>
-  <mat-icon svgIcon="yogaball"></mat-icon>
+
   <a mat-button routerLink="/home">
-    <h1>indieMart</h1>
+    <mat-icon svgIcon="yogaball"></mat-icon>
+    <span class="store-name">indieMart</span>
   </a>
   <span class="flex-spacer"></span>
-  <button mat-icon-button color="accent">
+  <button mat-icon-button color="accent" aria-label="User Profile"
+  matTooltip="Profile" routerLink="/user/profile">
     <mat-icon>account_circle</mat-icon>
   </button>
-  <button mat-icon-button color="accent">
+  <button mat-icon-button color="accent" aria-label="Logout"
+  matTooltip="Logout" routerLink="/user/logout">
     <mat-icon>lock_open</mat-icon>
   </button>
 

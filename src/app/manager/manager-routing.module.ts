@@ -16,7 +16,6 @@ const routes: Routes = [
       {path: 'receipts', component: ReceiptLookupComponent}
     ]
   }
-
 ];
 
 @NgModule({
